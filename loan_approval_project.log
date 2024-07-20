@@ -1,0 +1,169 @@
+2024-07-20 08:37:13,773:INFO:Started the main function
+2024-07-20 08:37:13,773:INFO:Loading data from data/dataset.CSV
+2024-07-20 08:37:13,797:INFO:Data loaded successfully
+2024-07-20 08:37:13,797:INFO:DataFrame columns: Index(['APP_ID', 'CIBIL_SCORE_VALUE', 'NEW_CUST', 'CUS_CATGCODE',
+       'EMPLOYMENT_TYPE', 'AGE', 'SEX', 'NO_OF_DEPENDENTS', 'MARITAL',
+       'EDU_QUA', 'P_RESTYPE', 'P_CATEGORY', 'EMPLOYEE_TYPE', 'MON_IN_OCC',
+       'INCOM_EXP_GMI', 'LTV', 'TENURE', 'STATUS'],
+      dtype='object')
+2024-07-20 08:37:13,797:INFO:Plotting correlation heatmap
+2024-07-20 08:37:13,956:INFO:Plotting count plots for various columns
+2024-07-20 08:37:14,264:INFO:Encoding labels
+2024-07-20 08:37:14,268:INFO:Dropping unnecessary columns
+2024-07-20 08:37:14,269:INFO:Defining features and target with target column: STATUS
+2024-07-20 08:37:14,270:INFO:Splitting the data into training and test sets
+2024-07-20 08:37:14,272:INFO:Training Logistic Regression model
+2024-07-20 08:37:17,085:INFO:Training Random Forest model
+2024-07-20 08:37:50,202:INFO:Training Decision Tree model
+2024-07-20 08:37:56,072:INFO:Training KNN model
+2024-07-20 08:38:39,158:INFO:Evaluating Logistic Regression model
+2024-07-20 08:38:39,181:INFO:Evaluating Random Forest model
+2024-07-20 08:38:39,306:INFO:Evaluating Decision Tree model
+2024-07-20 08:38:39,316:INFO:Evaluating KNN model
+2024-07-20 08:38:39,834:INFO:Logistic Regression Accuracy: 0.6368421052631579
+2024-07-20 08:38:39,834:INFO:Random Forest Accuracy: 0.6582706766917293
+2024-07-20 08:38:39,834:INFO:Decision Tree Accuracy: 0.6590225563909774
+2024-07-20 08:38:39,834:INFO:KNN Accuracy: 0.6180451127819548
+2024-07-20 08:38:39,834:INFO:Main function execution completed
+2024-07-20 08:43:44,262:INFO:Started the main function
+2024-07-20 08:43:44,262:INFO:Loading data from data/dataset.CSV
+2024-07-20 08:43:44,278:INFO:Data loaded successfully
+2024-07-20 08:43:44,294:INFO:DataFrame columns: Index(['APP_ID', 'CIBIL_SCORE_VALUE', 'NEW_CUST', 'CUS_CATGCODE',
+       'EMPLOYMENT_TYPE', 'AGE', 'SEX', 'NO_OF_DEPENDENTS', 'MARITAL',
+       'EDU_QUA', 'P_RESTYPE', 'P_CATEGORY', 'EMPLOYEE_TYPE', 'MON_IN_OCC',
+       'INCOM_EXP_GMI', 'LTV', 'TENURE', 'STATUS'],
+      dtype='object')
+2024-07-20 08:43:44,294:INFO:Plotting correlation heatmap
+2024-07-20 08:43:44,832:INFO:Plotting count plots for various columns
+2024-07-20 08:43:45,620:INFO:Encoding labels
+2024-07-20 08:43:45,620:INFO:Dropping unnecessary columns
+2024-07-20 08:43:45,620:INFO:Defining features and target with target column: STATUS
+2024-07-20 08:43:45,620:INFO:Splitting the data into training and test sets
+2024-07-20 08:43:45,620:INFO:Training Logistic Regression model
+2024-07-20 08:43:48,466:INFO:Best Logistic Regression model saved
+2024-07-20 08:43:48,466:INFO:Training Random Forest model
+2024-07-20 08:44:20,982:INFO:Best Random Forest model saved
+2024-07-20 08:44:20,982:INFO:Training Decision Tree model
+2024-07-20 08:44:26,992:INFO:Best Decision Tree model saved
+2024-07-20 08:44:26,992:INFO:Training KNN model
+2024-07-20 08:45:10,281:INFO:Best KNN model saved
+2024-07-20 08:45:10,281:INFO:Evaluating Logistic Regression model
+2024-07-20 08:45:10,298:INFO:Logistic Regression Accuracy: 0.6368421052631579
+2024-07-20 08:45:10,298:INFO:Logistic Regression Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.88      0.75      1646
+           1       0.56      0.24      0.33      1014
+
+    accuracy                           0.64      2660
+   macro avg       0.60      0.56      0.54      2660
+weighted avg       0.62      0.64      0.59      2660
+
+2024-07-20 08:45:10,313:INFO:Evaluating Random Forest model
+2024-07-20 08:45:10,329:INFO:Random Forest Accuracy: 0.6597744360902256
+2024-07-20 08:45:10,329:INFO:Random Forest Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.87      0.76      1646
+           1       0.60      0.31      0.41      1014
+
+    accuracy                           0.66      2660
+   macro avg       0.64      0.59      0.59      2660
+weighted avg       0.65      0.66      0.63      2660
+
+2024-07-20 08:45:10,345:INFO:Evaluating Decision Tree model
+2024-07-20 08:45:10,345:INFO:Decision Tree Accuracy: 0.6590225563909774
+2024-07-20 08:45:10,345:INFO:Decision Tree Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.82      0.75      1646
+           1       0.58      0.40      0.47      1014
+
+    accuracy                           0.66      2660
+   macro avg       0.63      0.61      0.61      2660
+weighted avg       0.65      0.66      0.64      2660
+
+2024-07-20 08:45:10,345:INFO:Evaluating KNN model
+2024-07-20 08:45:10,660:INFO:KNN Accuracy: 0.6180451127819548
+2024-07-20 08:45:10,660:INFO:KNN Report:
+              precision    recall  f1-score   support
+
+           0       0.62      1.00      0.76      1646
+           1       0.00      0.00      0.00      1014
+
+    accuracy                           0.62      2660
+   macro avg       0.31      0.50      0.38      2660
+weighted avg       0.38      0.62      0.47      2660
+
+2024-07-20 08:45:10,660:INFO:Main function execution completed
+2024-07-20 08:48:55,028:INFO:Started the main function
+2024-07-20 08:48:55,028:INFO:Loading data from data/dataset.CSV
+2024-07-20 08:48:55,044:INFO:Data loaded successfully
+2024-07-20 08:48:55,060:INFO:DataFrame columns: Index(['APP_ID', 'CIBIL_SCORE_VALUE', 'NEW_CUST', 'CUS_CATGCODE',
+       'EMPLOYMENT_TYPE', 'AGE', 'SEX', 'NO_OF_DEPENDENTS', 'MARITAL',
+       'EDU_QUA', 'P_RESTYPE', 'P_CATEGORY', 'EMPLOYEE_TYPE', 'MON_IN_OCC',
+       'INCOM_EXP_GMI', 'LTV', 'TENURE', 'STATUS'],
+      dtype='object')
+2024-07-20 08:48:55,060:INFO:Plotting correlation heatmap
+2024-07-20 08:48:55,639:INFO:Plotting count plots for various columns
+2024-07-20 08:48:56,517:INFO:Encoding labels
+2024-07-20 08:48:56,517:INFO:Dropping unnecessary columns
+2024-07-20 08:48:56,517:INFO:Defining features and target with target column: STATUS
+2024-07-20 08:48:56,517:INFO:Splitting the data into training and test sets
+2024-07-20 08:48:56,534:INFO:Training Logistic Regression model
+2024-07-20 08:48:59,450:INFO:Best Logistic Regression model saved
+2024-07-20 08:48:59,450:INFO:Training Random Forest model
+2024-07-20 08:49:42,628:INFO:Best Random Forest model saved
+2024-07-20 08:49:42,628:INFO:Training Decision Tree model
+2024-07-20 08:49:50,422:INFO:Best Decision Tree model saved
+2024-07-20 08:49:50,422:INFO:Training KNN model
+2024-07-20 08:50:54,960:INFO:Best KNN model saved
+2024-07-20 08:50:54,960:INFO:Evaluating Logistic Regression model
+2024-07-20 08:50:54,992:INFO:Logistic Regression Accuracy: 0.6368421052631579
+2024-07-20 08:50:54,992:INFO:Logistic Regression Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.88      0.75      1646
+           1       0.56      0.24      0.33      1014
+
+    accuracy                           0.64      2660
+   macro avg       0.60      0.56      0.54      2660
+weighted avg       0.62      0.64      0.59      2660
+
+2024-07-20 08:50:54,992:INFO:Evaluating Random Forest model
+2024-07-20 08:50:55,024:INFO:Random Forest Accuracy: 0.6578947368421053
+2024-07-20 08:50:55,024:INFO:Random Forest Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.88      0.76      1646
+           1       0.60      0.30      0.40      1014
+
+    accuracy                           0.66      2660
+   macro avg       0.64      0.59      0.58      2660
+weighted avg       0.64      0.66      0.62      2660
+
+2024-07-20 08:50:55,024:INFO:Evaluating Decision Tree model
+2024-07-20 08:50:55,039:INFO:Decision Tree Accuracy: 0.6590225563909774
+2024-07-20 08:50:55,039:INFO:Decision Tree Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.82      0.75      1646
+           1       0.58      0.40      0.47      1014
+
+    accuracy                           0.66      2660
+   macro avg       0.63      0.61      0.61      2660
+weighted avg       0.65      0.66      0.64      2660
+
+2024-07-20 08:50:55,039:INFO:Evaluating KNN model
+2024-07-20 08:50:55,448:INFO:KNN Accuracy: 0.6180451127819548
+2024-07-20 08:50:55,448:INFO:KNN Report:
+              precision    recall  f1-score   support
+
+           0       0.62      1.00      0.76      1646
+           1       0.00      0.00      0.00      1014
+
+    accuracy                           0.62      2660
+   macro avg       0.31      0.50      0.38      2660
+weighted avg       0.38      0.62      0.47      2660
+
+2024-07-20 08:50:55,448:INFO:Main function execution completed

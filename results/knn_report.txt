@@ -1,0 +1,10 @@
+KNN Accuracy: 0.6180451127819548
+              precision    recall  f1-score   support
+
+           0       0.62      1.00      0.76      1646
+           1       0.00      0.00      0.00      1014
+
+    accuracy                           0.62      2660
+   macro avg       0.31      0.50      0.38      2660
+weighted avg       0.38      0.62      0.47      2660
+
