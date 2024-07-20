@@ -4,9 +4,9 @@ This project aims to build and evaluate several machine learning models to predi
 
 ## Table of Contents
 
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Dataset](#dataset)
 - [Models](#models)
 - [Evaluation](#evaluation)
 - [Results](#results)
