@@ -14,40 +14,6 @@ This project aims to build and evaluate several machine learning models to predi
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Structure
-
-Banking_Loan_Approval_Project/
-│
-├── data/
-│ └── dataset.CSV
-├── models/
-│ └── best_model.pkl
-├── plots/
-│ ├── heatmap.png
-│ ├── count_plot_new_cust.png
-│ ├── count_plot_p_restype.png
-│ ├── count_plot_p_category.png
-│ ├── count_plot_status.png
-│ ├── count_plot_age.png
-│ ├── count_plot_sex.png
-│ ├── count_plot_no_of_dependents.png
-│ ├── count_plot_marital.png
-│ └── count_plot_incom_exp_gmi.png
-├── results/
-│ ├── logistic_regression_report.txt
-│ ├── random_forest_report.txt
-│ ├── decision_tree_report.txt
-│ └── knn_report.txt
-├── src/
-│ ├── data_loading.py
-│ ├── evaluation.py
-│ ├── model.py
-│ ├── preprocessing.py
-│ └── visualization.py
-├── main.py
-└── loan_approval_project.log
-
-
 ## Installation
 
 1. Clone the repository:
