@@ -14,6 +14,7 @@ This project aims to build and evaluate several machine learning models to predi
 - [Contributing](#contributing)
 - [License](#license)
 
+
 ## Installation
 
 1. Clone the repository:
@@ -51,8 +52,31 @@ This project aims to build and evaluate several machine learning models to predi
     - Generate and save plots in the `plots/` directory.
     - Train and evaluate multiple machine learning models.
     - Save detailed evaluation reports in the `results/` directory.
-    - Compare the models and save the best-performing model in the `models/` directory.
+    - Compare the models and save the best-performing model in the `models` directory.
     - Log all activities in `loan_approval_project.log`.
+
+## Dataset
+
+The dataset used in this project contains information about loan applications and their approval status. Below are the details of the columns in the dataset:
+
+- `APP_ID`: Unique identifier for each application.
+- `CIBIL_SCORE_VALUE`: Credit score of the applicant.
+- `NEW_CUST`: Indicates if the applicant is a new customer (Yes/No).
+- `CUS_CATGCODE`: Customer category code.
+- `EMPLOYMENT_TYPE`: Type of employment (e.g., Salaried, Self-Employed).
+- `AGE`: Age of the applicant.
+- `SEX`: Gender of the applicant.
+- `NO_OF_DEPENDENTS`: Number of dependents.
+- `MARITAL`: Marital status of the applicant.
+- `EDU_QUA`: Educational qualification.
+- `P_RESTYPE`: Type of residence.
+- `P_CATEGORY`: Residence category.
+- `EMPLOYEE_TYPE`: Type of employee.
+- `MON_IN_OCC`: Monthly income occupation.
+- `INCOM_EXP_GMI`: Income expense gross monthly income.
+- `LTV`: Loan to value ratio.
+- `TENURE`: Tenure of the loan.
+- `STATUS`: Loan approval status (approved/denied).
 
 ## Models
 
@@ -72,7 +96,7 @@ Evaluation reports are saved in the `results/` directory.
 
 ## Results
 
-The best-performing model is saved in the `models/` directory as `best_model.pkl`.
+The best-performing model is saved in the `models` directory as `best_model.pkl`.
 
 ## Logging
 
